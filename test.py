@@ -5,7 +5,9 @@ def print_diamond(n):
     for i in range(n):
         spaces = abs(n // 2 - i)
         stars = n - 2 * spaces
-        print(' ' * spaces + '*' * stars)
+        print(" " * spaces + "*" * stars)
+    print("")  # Print a newline at the end
+
 
 # Example usage:
 print_diamond(7)
