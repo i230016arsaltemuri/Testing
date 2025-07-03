@@ -8,6 +8,7 @@ def print_diamond(n):
         print(" " * spaces + "*" * stars)
     print("")  # Print a newline at the end
 
+print("Diamond pattern of size 7:")
 
 # Example usage:
 print_diamond(7)
